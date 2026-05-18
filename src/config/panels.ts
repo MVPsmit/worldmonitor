@@ -25,7 +25,7 @@ const FULL_PANELS: Record<string, PanelConfig> = {
   cii: { name: 'Country Instability', enabled: true, priority: 1, ...(_desktop && {  }) },
   'strategic-risk': { name: 'Strategic Risk Overview', enabled: true, priority: 1, ...(_desktop && {  }) },
   intel: { name: 'Intel Feed', enabled: true, priority: 1 },
-  'gdelt-intel': { name: 'Live Intelligence', enabled: true, priority: 1, ...(_desktop && {  'enhanced' as const }) },
+  'gdelt-intel': { name: 'Live Intelligence', enabled: true, priority: 1, ...(_desktop && {   }) },
   cascade: { name: 'Infrastructure Cascade', enabled: true, priority: 1 },
   'military-correlation': { name: 'Force Posture', enabled: true, priority: 2 },
   'escalation-correlation': { name: 'Escalation Monitor', enabled: true, priority: 2 },
