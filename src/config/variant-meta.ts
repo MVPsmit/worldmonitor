@@ -15,8 +15,7 @@ export interface VariantMeta {
     full: {                                                                                                                                                                                                                                  
       title: 'World Monitor - Real-Time Global Intelligence Dashboard',
       description: 'Real-time global intelligence dashboard with live news, markets, military tracking, infrastructure monitoring, and geopolitical data. OSINT in one view.',
-      keywords: 'global intelligence, geopolitical dashboard, world news, market data, military bases, nuclear facilities, undersea cables, conflict zones, real-time monitoring, situation awareness, OSINT, flight tracking, AIS ships, 
-  earthquake monitor, protest tracker, power outages, oil prices, government spending, polymarket predictions',
+      keywords: 'global intelligence, geopolitical dashboard, world news, market data, military bases, nuclear facilities, undersea cables, conflict zones, real-time monitoring, situation awareness, OSINT, flight tracking, AIS ships, earthquake monitor, protest tracker, power outages, oil prices, government spending, polymarket predictions',
       url: 'https://5f5b862f.smitscanner.pages.dev/',                                                                                                                                                                                        
       siteName: 'World Monitor',              
       shortName: 'World Monitor',                                                                                                                                                                                                            
@@ -41,8 +40,7 @@ export interface VariantMeta {
     tech: {
       title: 'Tech Monitor - Real-Time AI & Tech Industry Dashboard',
       description: 'Real-time AI and tech industry dashboard tracking tech giants, AI labs, startup ecosystems, funding rounds, and tech events worldwide.',
-      keywords: 'tech dashboard, AI industry, startup ecosystem, tech companies, AI labs, venture capital, tech events, tech conferences, cloud infrastructure, datacenters, tech layoffs, funding rounds, unicorns, FAANG, tech HQ, 
-  accelerators, Y Combinator, tech news',                                                                                                                                                                                                    
+      keywords: 'tech dashboard, AI industry, startup ecosystem, tech companies, AI labs, venture capital, tech events, tech conferences, cloud infrastructure, datacenters, tech layoffs, funding rounds, unicorns, FAANG, tech HQ, accelerators, Y Combinator, tech news',                                                                                                                                                                                                    
       url: 'https://5f5b862f.smitscanner.pages.dev/',
       siteName: 'Tech Monitor',                                                                                                                                                                                                              
       shortName: 'TechMonitor',                                                                                                                                                                                                              
@@ -85,8 +83,7 @@ export interface VariantMeta {
     finance: {                                              
       title: 'Finance Monitor - Real-Time Markets & Trading Dashboard',
       description: 'Real-time finance and trading dashboard tracking global markets, stock exchanges, central banks, commodities, forex, crypto, and economic indicators worldwide.',
-      keywords: 'finance dashboard, trading dashboard, stock market, forex, commodities, central banks, crypto, economic indicators, market news, financial centers, stock exchanges, bonds, derivatives, fintech, hedge funds, IPO tracker, 
-  market analysis',                           
+      keywords: 'finance dashboard, trading dashboard, stock market, forex, commodities, central banks, crypto, economic indicators, market news, financial centers, stock exchanges, bonds, derivatives, fintech, hedge funds, IPO tracker, market analysis',                           
       url: 'https://5f5b862f.smitscanner.pages.dev/',
       siteName: 'Finance Monitor',                                                                                                                                                                                                           
       shortName: 'FinanceMonitor',                                                                                                                                                                                                           
@@ -110,8 +107,7 @@ export interface VariantMeta {
     commodity: {                                                                                                                                                                                                                             
       title: 'Commodity Monitor - Real-Time Commodity Markets & Supply Chain Dashboard',
       description: 'Real-time commodity markets dashboard tracking mining sites, processing plants, commodity ports, supply chains, and global commodity trade flows.',                                                                      
-      keywords: 'commodity dashboard, mining sites, processing plants, commodity ports, supply chain, commodity markets, oil, gas, metals, agriculture, mining operations, commodity trade, logistics, infrastructure, resource tracking, 
-  commodity prices, futures markets',     
+      keywords: 'commodity dashboard, mining sites, processing plants, commodity ports, supply chain, commodity markets, oil, gas, metals, agriculture, mining operations, commodity trade, logistics, infrastructure, resource tracking, commodity prices, futures markets',     
       url: 'https://5f5b862f.smitscanner.pages.dev/',
       siteName: 'Commodity Monitor',                                                                                                                                                                                                         
       shortName: 'CommodityMonitor',      
