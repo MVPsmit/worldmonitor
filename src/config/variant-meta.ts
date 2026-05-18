@@ -134,8 +134,7 @@ export interface VariantMeta {
     energy: {
       title: 'Energy Atlas - Real-Time Global Energy Intelligence Dashboard',
       description: 'Real-time global energy atlas tracking oil and gas pipelines, storage facilities, chokepoints, fuel shortages, tanker flows, and disruption events worldwide.',
-      keywords: 'energy dashboard, oil pipeline tracker, gas pipeline map, LNG terminals, gas storage map, oil storage, SPR tracker, Strait of Hormuz, chokepoint monitor, fuel shortage tracker, pipeline disruption, energy crisis, OPEC, 
-  tanker tracking, energy infrastructure, natural gas storage, crude oil inventories, IEA oil stocks, days of cover, energy sanctions, petroleum, diesel, jet fuel, heating oil',
+      keywords: 'energy dashboard, oil pipeline tracker, gas pipeline map, LNG terminals, gas storage map, oil storage, SPR tracker, Strait of Hormuz, chokepoint monitor, fuel shortage tracker, pipeline disruption, energy crisis, OPEC, tanker tracking, energy infrastructure, natural gas storage, crude oil inventories, IEA oil stocks, days of cover, energy sanctions, petroleum, diesel, jet fuel, heating oil',
       url: 'https://5f5b862f.smitscanner.pages.dev/',                                                                                                                                                                                        
       siteName: 'Energy Atlas',
       shortName: 'EnergyAtlas',                                                                                                                                                                                                              
