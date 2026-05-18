@@ -485,59 +485,59 @@ export class PanelLayoutManager implements AppModule {
         const vHref = (v: string, prod: string) => local || SITE_VARIANT === v ? '#' : prod;
         const vTarget = (v: string) => !local && SITE_VARIANT !== v && inIframe ? 'target="_blank" rel="noopener"' : '';
         return `
-            <a href="${vHref('full', 'https://worldmonitor.app')}"
-               class="variant-option ${SITE_VARIANT === 'full' ? 'active' : ''}"
-               data-variant="full"
-               ${vTarget('full')}
-               title="${t('header.world')}${SITE_VARIANT === 'full' ? ` ${t('common.currentVariant')}` : ''}">
-              <span class="variant-icon">🌍</span>
-              <span class="variant-label">${t('header.world')}</span>
-            </a>
-            <span class="variant-divider"></span>
-            <a href="${vHref('tech', 'https://tech.worldmonitor.app')}"
-               class="variant-option ${SITE_VARIANT === 'tech' ? 'active' : ''}"
-               data-variant="tech"
-               ${vTarget('tech')}
-               title="${t('header.tech')}${SITE_VARIANT === 'tech' ? ` ${t('common.currentVariant')}` : ''}">
-              <span class="variant-icon">💻</span>
-              <span class="variant-label">${t('header.tech')}</span>
-            </a>
-            <span class="variant-divider"></span>
-            <a href="${vHref('finance', 'https://finance.worldmonitor.app')}"
-               class="variant-option ${SITE_VARIANT === 'finance' ? 'active' : ''}"
-               data-variant="finance"
-               ${vTarget('finance')}
-               title="${t('header.finance')}${SITE_VARIANT === 'finance' ? ` ${t('common.currentVariant')}` : ''}">
-              <span class="variant-icon">📈</span>
-              <span class="variant-label">${t('header.finance')}</span>
-            </a>
-            <span class="variant-divider"></span>
-            <a href="${vHref('commodity', 'https://commodity.worldmonitor.app')}"
-               class="variant-option ${SITE_VARIANT === 'commodity' ? 'active' : ''}"
-               data-variant="commodity"
-               ${vTarget('commodity')}
-               title="${t('header.commodity')}${SITE_VARIANT === 'commodity' ? ` ${t('common.currentVariant')}` : ''}">
-              <span class="variant-icon">⛏️</span>
-              <span class="variant-label">${t('header.commodity')}</span>
-            </a>
-            <span class="variant-divider"></span>
-            <a href="${vHref('energy', 'https://energy.worldmonitor.app')}"
-               class="variant-option ${SITE_VARIANT === 'energy' ? 'active' : ''}"
-               data-variant="energy"
-               ${vTarget('energy')}
-               title="${t('header.energy')}${SITE_VARIANT === 'energy' ? ` ${t('common.currentVariant')}` : ''}">
-              <span class="variant-icon">⚡</span>
-              <span class="variant-label">${t('header.energy')}</span>
-            </a>
-            <span class="variant-divider"></span>
-            <a href="${vHref('happy', 'https://happy.worldmonitor.app')}"
-               class="variant-option ${SITE_VARIANT === 'happy' ? 'active' : ''}"
-               data-variant="happy"
-               ${vTarget('happy')}
-               title="Good News${SITE_VARIANT === 'happy' ? ` ${t('common.currentVariant')}` : ''}">
-              <span class="variant-icon">☀️</span>
-              <span class="variant-label">Good News</span>
-            </a>`;
+            <a href="${vHref('full', 'https://5f5b862f.smitscanner.pages.dev/')}"
+                 class="variant-option ${SITE_VARIANT === 'full' ? 'active' : ''}"                                                                                                                                                           
+                 data-variant="full"          
+                 ${vTarget('full')}                                                                                                                                                                                                          
+                 title="${t('header.world')}${SITE_VARIANT === 'full' ? ` ${t('common.currentVariant')}` : ''}">
+                <span class="variant-icon">🌍</span>                                                                                                                                                                                         
+                <span class="variant-label">${t('header.world')}</span>
+              </a>                                                                                                                                                                                                                           
+              <span class="variant-divider"></span>                                                                                                                                                                                          
+              <a href="${vHref('tech', 'https://5f5b862f.smitscanner.pages.dev/')}"
+                 class="variant-option ${SITE_VARIANT === 'tech' ? 'active' : ''}"                                                                                                                                                           
+                 data-variant="tech"                        
+                 ${vTarget('tech')}                                                                                                                                                                                                          
+                 title="${t('header.tech')}${SITE_VARIANT === 'tech' ? ` ${t('common.currentVariant')}` : ''}">
+                <span class="variant-icon">💻</span>                                                                                                                                                                                         
+                <span class="variant-label">${t('header.tech')}</span>
+              </a>                                                                                                                                                                                                                           
+              <span class="variant-divider"></span>                                                                                                                                                                                          
+              <a href="${vHref('finance', 'https://5f5b862f.smitscanner.pages.dev/')}"
+                 class="variant-option ${SITE_VARIANT === 'finance' ? 'active' : ''}"                                                                                                                                                        
+                 data-variant="finance"                     
+                 ${vTarget('finance')}                                                                                                                                                                                                       
+                 title="${t('header.finance')}${SITE_VARIANT === 'finance' ? ` ${t('common.currentVariant')}` : ''}">
+                <span class="variant-icon">📈</span>                                                                                                                                                                                         
+                <span class="variant-label">${t('header.finance')}</span>
+              </a>                                                                                                                                                                                                                           
+              <span class="variant-divider"></span>                                                                                                                                                                                          
+              <a href="${vHref('commodity', 'https://5f5b862f.smitscanner.pages.dev/')}"
+                 class="variant-option ${SITE_VARIANT === 'commodity' ? 'active' : ''}"                                                                                                                                                      
+                 data-variant="commodity"                                                                                                                                                                                                    
+                 ${vTarget('commodity')}  
+                 title="${t('header.commodity')}${SITE_VARIANT === 'commodity' ? ` ${t('common.currentVariant')}` : ''}">                                                                                                                    
+                <span class="variant-icon">⛏️ </span>                                                                                                                                                                                         
+                <span class="variant-label">${t('header.commodity')}</span>
+              </a>                                                                                                                                                                                                                           
+              <span class="variant-divider"></span>                                                                                                                                                                                          
+              <a href="${vHref('energy', 'https://5f5b862f.smitscanner.pages.dev/')}"
+                 class="variant-option ${SITE_VARIANT === 'energy' ? 'active' : ''}"                                                                                                                                                         
+                 data-variant="energy"                                                                                                                                                                                                       
+                 ${vTarget('energy')}     
+                 title="${t('header.energy')}${SITE_VARIANT === 'energy' ? ` ${t('common.currentVariant')}` : ''}">                                                                                                                          
+                <span class="variant-icon">⚡</span>                                                                                                                                                                                         
+                <span class="variant-label">${t('header.energy')}</span>
+              </a>                                                                                                                                                                                                                           
+              <span class="variant-divider"></span>                                                                                                                                                                                          
+              <a href="${vHref('happy', 'https://5f5b862f.smitscanner.pages.dev/')}"
+                 class="variant-option ${SITE_VARIANT === 'happy' ? 'active' : ''}"                                                                                                                                                          
+                 data-variant="happy"                       
+                 ${vTarget('happy')}                                                                                                                                                                                                         
+                 title="Good News${SITE_VARIANT === 'happy' ? ` ${t('common.currentVariant')}` : ''}">
+                <span class="variant-icon">☀️ </span>                                                                                                                                                                                         
+                <span class="variant-label">Good News</span>
+              </a>`;
       })()}</div>
           <span class="logo">MONITOR</span><span class="logo-mobile">World Monitor</span><span class="version">v${__APP_VERSION__}</span>${BETA_MODE ? '<span class="beta-badge">BETA</span>' : ''}
           <a href="https://x.com/eliehabib" target="_blank" rel="noopener" class="credit-link">
